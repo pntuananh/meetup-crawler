@@ -6,7 +6,7 @@ import sys, getopt
 from collections import deque
 import pdb
           
-private_key = '3a4d4365a364d4b324117792c5121'
+private_key = ''
 MEETUP_CRAWLER_SERVER = 'http://127.0.0.1:8888'
 TO_FLUSH = 100
 MAX_N_ITEM = 10000

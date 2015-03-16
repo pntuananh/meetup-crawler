@@ -5,7 +5,7 @@ import pdb
 
 all_groups = set()
 
-private_key = '3a4d4365a364d4b324117792c5121'
+private_key = ''
 HOST = 'https://api.meetup.com'
 URL_GROUP   = HOST + '/2/groups' #&group_id=1655350''
 URL_MEMBERS_OF_GROUP = HOST + '/2/members' #&group_id=1655350&page=100&offset=0'
