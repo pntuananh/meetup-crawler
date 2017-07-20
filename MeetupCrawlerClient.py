@@ -104,7 +104,7 @@ class MeetupCrawlerClient:
             
     
     def add(self, typ, item):
-        data = [(type,item)]
+        data = [(typ,item)]
         res = urllib2.urlopen(MEETUP_CRAWLER_SERVER + '/put',json.dumps(data)).read()
         return res    
     
