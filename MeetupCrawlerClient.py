@@ -302,6 +302,7 @@ class MeetupCrawlerClient:
             ids = [res['id'] for res in js['results']]
             self.add_list('group', ids)
 
+          
     def get_events_of_groups(self, group_id):
         '''Get events of this group'''
         page = 100
@@ -326,6 +327,7 @@ class MeetupCrawlerClient:
             
             offset += 1
         
+
     def log(self, msg):
         self.err_log.write('%s - %s\n' % (time.ctime(), msg))   
         self.err_log.flush()
